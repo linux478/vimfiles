@@ -20,4 +20,4 @@ inoremap jk <ESC>
 nnoremap <F12> :source $MYVIMRC<CR>
 nnoremap <F11> :edit $MYVIMRC<CR>
 nnoremap <F10> :source $MYVIMRC<CR>
-nnoremap <F9> :edit $HOME/vimfiles/ftplugin/<C-R>=&ft<CR>.vim<CR>
+nnoremap <F9> :vsplit $HOME/vimfiles/ftplugin/<C-R>=&ft<CR>.vim<CR>
