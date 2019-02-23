@@ -3,6 +3,7 @@ colorscheme desert
 
 set expandtab
 set number
+set ruler
 
 noremap <Up> <NOP>
 noremap <Down> <NOP>
