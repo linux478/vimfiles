@@ -15,7 +15,7 @@ noremap j <NOP>
 noremap k <NOP>
 noremap l <NOP>
 
-inoremap jk <ESC>
+inoremap <TAB> <ESC>
 
 nnoremap <F12> :source $MYVIMRC<CR>
 nnoremap <F11> :edit $MYVIMRC<CR>
