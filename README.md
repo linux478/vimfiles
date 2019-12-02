@@ -1,2 +1,2 @@
 # vimrc
-My Vim configuration files
+Configuration Files
