@@ -4,6 +4,8 @@ colorscheme desert
 set expandtab
 set number
 set ruler
+set textwidth=78
+set tabstop=2
 
 noremap <Up> <NOP>
 noremap <Down> <NOP>
@@ -14,6 +16,8 @@ noremap h <NOP>
 noremap j <NOP>
 noremap k <NOP>
 noremap l <NOP>
+
+cnoremap <TAB> <UP>
 
 inoremap <TAB> <ESC>
 
