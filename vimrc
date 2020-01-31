@@ -17,8 +17,6 @@ set textwidth=78
 
 noremap <Up> <NOP>
 noremap <Down> <NOP>
-noremap <Left> <NOP>
-noremap <Right> <NOP>
 noremap <ESC> <NOP>
 noremap h <NOP>
 noremap j <NOP>
