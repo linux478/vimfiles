@@ -10,6 +10,7 @@ set expandtab
 set nomodeline
 set noswapfile
 set number
+set ruler
 set shiftwidth=2
 set softtabstop=2
 set textwidth=78
