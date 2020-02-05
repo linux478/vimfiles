@@ -19,8 +19,6 @@ noremap <Up> <NOP>
 noremap <Down> <NOP>
 noremap <ESC> <NOP>
 noremap h <NOP>
-noremap j <NOP>
-noremap k <NOP>
 noremap l <NOP>
 
 cnoremap <TAB> <UP>
