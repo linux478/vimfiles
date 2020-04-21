@@ -30,12 +30,13 @@ nnoremap <buffer> <F5> :upd<bar>call AutoLispReloadBuild()<CR>
 nnoremap <buffer> <F6> :vimgrep /^(defun/ % <bar> vert cw 50<CR>
 
 
+echom "Hello World"
 function! AutoLispFolds() "{{{
   let l:thisline = getline(v:lnum)
   let l:nextline = getline(v:lnum + 1)
-  if l:thisline =~ '^;\+' && l:nextline =~ ';\+'
+  if l:thisline =~ '^;\+' "&& l:nextline =~ ';\+'
     return "1"
-  elseif thisline =~ ')(princ ".")'
+  elseif thisline =~ '^)'
     return "<1"
   else
     return "-1"
