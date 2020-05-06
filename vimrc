@@ -7,6 +7,7 @@ set autoindent
 set backspace=indent,eol,start
 set colorcolumn=80
 set expandtab
+set nobackup
 set nomodeline
 set noswapfile
 set number
