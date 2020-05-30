@@ -71,6 +71,3 @@ augroup templates
     au!
     autocmd BufNewFile *.* silent! execute '0r $HOME/vimfiles/templates/skeleton.'.expand("<afile>:e")
 augroup END
-
-""    0yyPo /Date2yy''puuo  /Date3yy''pjj7014f R |          |           |         yypBrTyypWrWyypfWrRyypWrFyypWrSoq€kb  
-""    ?%^€kb€kb^# Week/Mwwye}o@@€kb€kb## 2020-05-" Monday"  a Tuesday a"  a Wednesday33€kb€kb €kb"    a Thursday## "      a Friday" a Say€kbturday  
