@@ -37,6 +37,10 @@ vnoremap <Right> <Nop>
 vnoremap <Up> <Nop>
 vnoremap <TAB> <ESC>
 
+nnoremap <C-J> <C-W>j
+nnoremap <C-K> <C-W>k
+nnoremap <C-L> <C-W>l
+nnoremap <C-H> <C-W>h
 nnoremap h <Nop>
 nnoremap l <Nop>
 
