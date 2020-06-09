@@ -30,7 +30,6 @@ nnoremap <buffer> <F5> :upd<bar>call AutoLispReloadBuild()<CR>
 nnoremap <buffer> <F6> :vimgrep /^(defun/ % <bar> vert cw 50<CR>
 
 
-echom "Hello World"
 function! AutoLispFolds() "{{{
   let l:thisline = getline(v:lnum)
   let l:nextline = getline(v:lnum + 1)
