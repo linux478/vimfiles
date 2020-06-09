@@ -59,11 +59,3 @@ nnoremap <F9>  :vsplit $HOME/.vim/ftplugin/<C-R>=&ft<CR>.vim<CR>
 nnoremap <F2> :cnext<CR>
 nnoremap <F3> :cprevious<CR>
 nnoremap <F4> :copen<CR>
-nnoremap sl <C-W>l
-nnoremap sk <C-W>k
-nnoremap sj <C-W>j
-nnoremap sh <C-W>h
-nnoremap so <C-W>o
-nnoremap s\| <C-W>\|
-nnoremap s_ <C-W>_
-nnoremap s= <C-W>=
