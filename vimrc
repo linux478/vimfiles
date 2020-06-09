@@ -21,7 +21,6 @@ inoremap <Down> <Nop>
 inoremap <Left> <Nop>
 inoremap <Right> <Nop>
 inoremap <Up> <Nop>
-inoremap <ESC> <Nop>
 inoremap <TAB> <ESC>
 
 " Remove newbie crutches in Normal Mode
@@ -29,7 +28,6 @@ nnoremap <Down> <Nop>
 nnoremap <Left> <Nop>
 nnoremap <Right> <Nop>
 nnoremap <Up> <Nop>
-nnoremap <ESC> <Nop>
 nnoremap <TAB> :
 
 " Remove newbie crutches in Visual Mode
@@ -37,7 +35,6 @@ vnoremap <Down> <Nop>
 vnoremap <Left> <Nop>
 vnoremap <Right> <Nop>
 vnoremap <Up> <Nop>
-vnoremap <ESC> <Nop>
 vnoremap <TAB> <ESC>
 
 nnoremap h <Nop>
@@ -66,11 +63,3 @@ nnoremap so <C-W>o
 nnoremap s\| <C-W>\|
 nnoremap s_ <C-W>_
 nnoremap s= <C-W>=
-
-augroup templates
-    au!
-    autocmd BufNewFile *.* silent! execute '0r $HOME/vimfiles/templates/skeleton.'.expand("<afile>:e")
-augroup END
-
-""    0yyPo /Date2yy''puuo  /Date3yy''pjj7014f R |          |           |         yypBrTyypWrWyypfWrRyypWrFyypWrSoq€kb  
-""    ?%^€kb€kb^# Week/Mwwye}o@@€kb€kb## 2020-05-" Monday"  a Tuesday a"  a Wednesday33€kb€kb €kb"    a Thursday## "      a Friday" a Say€kbturday  
