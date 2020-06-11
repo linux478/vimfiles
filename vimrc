@@ -11,6 +11,7 @@ set nobackup
 set nomodeline
 set noswapfile
 set number
+set relativenumber
 set ruler
 set shiftwidth=2
 set softtabstop=2
