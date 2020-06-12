@@ -44,6 +44,8 @@ nnoremap <C-L> <C-W>l
 nnoremap <C-H> <C-W>h
 nnoremap h <Nop>
 nnoremap l <Nop>
+nnoremap v <C-V>
+nnoremap <C-V> v
 
 cnoremap <TAB> <UP>
 cnoremap <F1> !git status<CR>
