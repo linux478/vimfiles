@@ -1,4 +1,9 @@
+
 # Install
+
+## Windows SSH/Keys setup
+
+* [vladmihalcea.com](https://vladmihalcea.com/tutorials/git/windows-git-ssh-authentication-to-github/)
 
 ## Change to the home directory
 
