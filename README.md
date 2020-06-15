@@ -43,7 +43,7 @@ git submodules init
 ## Update submodules
 
 ```
-git submodules update
+git submodule update
 
 ```
 
