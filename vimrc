@@ -62,3 +62,12 @@ nnoremap <F9>  :vsplit $HOME/.vim/ftplugin/<C-R>=&ft<CR>.vim<CR>
 nnoremap <F2> :cnext<CR>
 nnoremap <F3> :cprevious<CR>
 nnoremap <F4> :copen<CR>
+
+let mapleader = " "
+
+nnoremap <Leader>gc :Gcommit<cr>
+nnoremap <Leader>gca :Gcommit --amend<cr>
+nnoremap <Leader>gf :GFetch<cr>
+nnoremap <Leader>gp :GPull<cr>
+nnoremap <Leader>gs :Gstatus<cr>
+nnoremap <Leader>gw :Gwrite<cr>
