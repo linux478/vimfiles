@@ -42,6 +42,7 @@ nnoremap <C-J> <C-W>j
 nnoremap <C-K> <C-W>k
 nnoremap <C-L> <C-W>l
 nnoremap <C-H> <C-W>h
+nnoremap <C-O> <C-W>o
 nnoremap h <Nop>
 nnoremap l <Nop>
 nnoremap v <C-V>
