@@ -65,6 +65,7 @@ nnoremap <F3> :cprevious<CR>
 nnoremap <F4> :copen<CR>
 
 let mapleader = "\<Space>"
+let maplocalleader = "\<Space>"
 
 nnoremap <Leader>gc :Gcommit<cr>
 nnoremap <Leader>gca :Gcommit --amend<cr>
