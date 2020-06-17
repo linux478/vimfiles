@@ -73,3 +73,6 @@ nnoremap <Leader>gf :GFetch<cr>
 nnoremap <Leader>gp :GPull<cr>
 nnoremap <Leader>gs :Gstatus<cr>
 nnoremap <Leader>gw :Gwrite<cr>
+
+
+inoremap <F4> :execute "vimgrep /[+@]" . expand("<cword>") . "/j %" <bar> cw<CR>
