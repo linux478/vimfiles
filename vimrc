@@ -1,7 +1,7 @@
 filetype plugin indent on
 
 syn on
-colorscheme ron
+colorscheme solarized
 
 set autoindent
 set backspace=indent,eol,start
@@ -17,62 +17,52 @@ set shiftwidth=2
 set softtabstop=2
 set textwidth=78
 
-" Remove newbie crutches in Insert Mode
+let mapleader = "\<Space>"
+let maplocalleader = "\<Space>"
+
+cnoremap <TAB> <UP>
+cnoremap <S-TAB> <DOWN>
+
 inoremap <Down> <Nop>
 inoremap <Left> <Nop>
 inoremap <Right> <Nop>
 inoremap <Up> <Nop>
 inoremap <TAB> <ESC>
 
-" Remove newbie crutches in Normal Mode
-nnoremap <Down> <Nop>
-nnoremap <Left> <Nop>
-nnoremap <Right> <Nop>
-nnoremap <Up> <Nop>
-nnoremap <TAB> :
-
-" Remove newbie crutches in Visual Mode
-vnoremap <Down> <Nop>
-vnoremap <Left> <Nop>
-vnoremap <Right> <Nop>
-vnoremap <Up> <Nop>
-vnoremap <TAB> <ESC>
-
+nnoremap <C-H> <C-W>h
 nnoremap <C-J> <C-W>j
 nnoremap <C-K> <C-W>k
 nnoremap <C-L> <C-W>l
-nnoremap <C-H> <C-W>h
 nnoremap <C-O> <C-W>o
-nnoremap h <Nop>
-nnoremap l <Nop>
-nnoremap v <C-V>
 nnoremap <C-V> v
-
-cnoremap <TAB> <UP>
-cnoremap <F1> !git status<CR>
-cnoremap <F2> !git add<Space>
-cnoremap <F3> !git commit<CR>
-
-inoremap <TAB> <ESC>
-
-nnoremap <TAB> :
-nnoremap <F12> :source $MYVIMRC<CR>
-nnoremap <F11> :vsplit $MYVIMRC<CR>
+nnoremap <Down> <Nop>
 nnoremap <F10> :source $HOME/.vim/ftplugin/<C-R>=&ft<CR>.vim<CR>
-nnoremap <F9>  :vsplit $HOME/.vim/ftplugin/<C-R>=&ft<CR>.vim<CR>
+nnoremap <F11> :vsplit $MYVIMRC<CR>
+nnoremap <F12> :source $MYVIMRC<CR>
 nnoremap <F2> :cnext<CR>
 nnoremap <F3> :cprevious<CR>
 nnoremap <F4> :copen<CR>
-
-let mapleader = "\<Space>"
-let maplocalleader = "\<Space>"
-
+nnoremap <F5> :execute "vimgrep /[+@]" . expand("<cword>") . "/j %" <bar> cw<CR>
+nnoremap <F6> :Tabularize /[+@]\w\+/<CR>
+nnoremap <F9>  :vsplit $HOME/.vim/ftplugin/<C-R>=&ft<CR>.vim<CR>
+nnoremap <Leader>g :<c-u>:Gwrite<bar>Gcommit<cr>
 nnoremap <Leader>gc :Gcommit<cr>
 nnoremap <Leader>gca :Gcommit --amend<cr>
 nnoremap <Leader>gf :GFetch<cr>
 nnoremap <Leader>gp :GPull<cr>
 nnoremap <Leader>gs :Gstatus<cr>
 nnoremap <Leader>gw :Gwrite<cr>
+nnoremap <Left> <Nop>
+nnoremap <Right> <Nop>
+nnoremap <TAB> :
+nnoremap <Up> <Nop>
+nnoremap h <Nop>
+nnoremap l <Nop>
+nnoremap v <C-V>
 
 
-inoremap <F4> :execute "vimgrep /[+@]" . expand("<cword>") . "/j %" <bar> cw<CR>
+vnoremap <Down> <Nop>
+vnoremap <Left> <Nop>
+vnoremap <Right> <Nop>
+vnoremap <Up> <Nop>
+vnoremap <TAB> <ESC>

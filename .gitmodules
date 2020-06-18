@@ -1,6 +1,3 @@
-[submodule "pack/plugins/start/todo.txt"]
-	path = pack/plugins/start/todo
-	url = https://github.com/freitass/todo.txt-vim.git
 [submodule "pack/plugins/start/fugitive"]
 	path = pack/plugins/start/fugitive
 	url = https://github.com/tpope/vim-fugitive.git
@@ -10,3 +7,7 @@
 [submodule "pack/plugins/start/colors-solarized"]
 	path = pack/plugins/start/colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "pack/plugins/start/todo.txt-vim"]
+	path = pack/plugins/start/todo.txt-vim
+	url = https://github.com/linux478/todo.txt-vim.git
+	branch = linux478-white-space-D-command
