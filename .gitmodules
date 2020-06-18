@@ -7,7 +7,3 @@
 [submodule "pack/plugins/start/colors-solarized"]
 	path = pack/plugins/start/colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
-[submodule "pack/plugins/start/todo.txt-vim"]
-	path = pack/plugins/start/todo.txt-vim
-	url = https://github.com/linux478/todo.txt-vim.git
-	branch = linux478-white-space-D-command
