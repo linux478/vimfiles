@@ -1,7 +1,7 @@
 filetype plugin indent on
 
 syn on
-colorscheme ron
+colorscheme solarized
 
 set autoindent
 set backspace=indent,eol,start
@@ -20,6 +20,9 @@ set textwidth=78
 let mapleader = "\<Space>"
 let maplocalleader = "\<Space>"
 
+cnoremap <TAB> <UP>
+cnoremap <S-TAB> <DOWN>
+
 inoremap <Down> <Nop>
 inoremap <Left> <Nop>
 inoremap <Right> <Nop>
@@ -36,14 +39,13 @@ nnoremap <Down> <Nop>
 nnoremap <F10> :source $HOME/.vim/ftplugin/<C-R>=&ft<CR>.vim<CR>
 nnoremap <F11> :vsplit $MYVIMRC<CR>
 nnoremap <F12> :source $MYVIMRC<CR>
-nnoremap <F2> :Tabularize /[+@]\w\+/<CR>
 nnoremap <F2> :cnext<CR>
 nnoremap <F3> :cprevious<CR>
 nnoremap <F4> :copen<CR>
 nnoremap <F5> :execute "vimgrep /[+@]" . expand("<cword>") . "/j %" <bar> cw<CR>
 nnoremap <F6> :Tabularize /[+@]\w\+/<CR>
 nnoremap <F9>  :vsplit $HOME/.vim/ftplugin/<C-R>=&ft<CR>.vim<CR>
-nnoremap <Leader>g :<c-u>:Gwrite<bar>Gcommit -m WIP<bar>Gpush<cr>
+nnoremap <Leader>g :<c-u>:Gwrite<bar>Gcommit<cr>
 nnoremap <Leader>gc :Gcommit<cr>
 nnoremap <Leader>gca :Gcommit --amend<cr>
 nnoremap <Leader>gf :GFetch<cr>
@@ -53,13 +55,11 @@ nnoremap <Leader>gw :Gwrite<cr>
 nnoremap <Left> <Nop>
 nnoremap <Right> <Nop>
 nnoremap <TAB> :
-nnoremap <TAB> :
 nnoremap <Up> <Nop>
 nnoremap h <Nop>
 nnoremap l <Nop>
 nnoremap v <C-V>
 
-cnoremap <TAB> <UP>
 
 vnoremap <Down> <Nop>
 vnoremap <Left> <Nop>
