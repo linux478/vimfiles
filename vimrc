@@ -56,6 +56,8 @@ nnoremap <Left> <Nop>
 nnoremap <Right> <Nop>
 nnoremap <TAB> :
 nnoremap <Up> <Nop>
+nnoremap <script> <silent> <buffer> <localleader>f *:g//m0<CR>:g//m0<CR>gg
+nnoremap <script> <silent> <buffer> <localleader>i *:g//m$<CR>gg
 nnoremap h <Nop>
 nnoremap l <Nop>
 nnoremap v <C-V>
