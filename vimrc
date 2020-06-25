@@ -52,7 +52,7 @@ nnoremap <Leader>g :<c-u>:Gwrite<bar>Gcommit<cr>
 nnoremap <Leader>gc :Gcommit<cr>
 nnoremap <Leader>gca :Gcommit --amend<cr>
 nnoremap <Leader>gf :GFetch<cr>
-nnoremap <Leader>gp :GPull<cr>
+nnoremap <Leader>gp :GPush<cr>
 nnoremap <Leader>gs :Gstatus<cr>
 nnoremap <Leader>gw :Gwrite<cr>
 nnoremap <Left> <Nop>
