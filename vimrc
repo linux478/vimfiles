@@ -51,8 +51,8 @@ nnoremap <F9>  :vsplit $HOME/.vim/ftplugin/<C-R>=&ft<CR>.vim<CR>
 nnoremap <Leader>g :<c-u>:Gwrite<bar>Gcommit<cr>
 nnoremap <Leader>gc :Gcommit<cr>
 nnoremap <Leader>gca :Gcommit --amend<cr>
-nnoremap <Leader>gf :GFetch<cr>
-nnoremap <Leader>gp :GPush<cr>
+nnoremap <Leader>gf :Gfetch<cr>
+nnoremap <Leader>gp :Gpush<cr>
 nnoremap <Leader>gs :Gstatus<cr>
 nnoremap <Leader>gw :Gwrite<cr>
 nnoremap <Left> <Nop>
