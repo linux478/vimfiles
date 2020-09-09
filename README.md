@@ -42,7 +42,7 @@ cd vimfiles
 ## Initialize submodules
 
 ```
-git submodules init
+git submodule init
 ```
 
 ## Update submodules
