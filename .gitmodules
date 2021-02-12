@@ -7,3 +7,6 @@
 [submodule "pack/plugins/start/colors-solarized"]
 	path = pack/plugins/start/colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule "pack/plugins/start/vim-asciidoctor"]
+	path = pack/plugins/start/vim-asciidoctor
+	url = https://github.com/habamax/vim-asciidoctor.git
