@@ -28,8 +28,6 @@ inoremap <Left> <Nop>
 inoremap <Right> <Nop>
 inoremap <TAB> <ESC>
 inoremap <Up> <Nop>
-inoremap date<TAB> <C-R>=strftime("%Y-%m-%d")<CR>
-inoremap time<TAB> <C-R>=strftime("%H:%M")<CR>
 
 nnoremap <C-H> <C-W>h
 nnoremap <C-J> <C-W>j
@@ -41,8 +39,8 @@ nnoremap <Down> <Nop>
 nnoremap <F10> :source $HOME/.vim/ftplugin/<C-R>=&ft<CR>.vim<CR>
 nnoremap <F11> :vsplit $MYVIMRC<CR>
 nnoremap <F12> :source $MYVIMRC<CR>
-nnoremap <F2> :cnext<CR>
-nnoremap <F3> :cprevious<CR>
+nnoremap <F2> :cprevious<CR>
+nnoremap <F3> :cnext<CR>
 nnoremap <F4> :copen<CR>
 nnoremap <F5> :execute "vimgrep /[+@]" . expand("<cword>") . "/j %" <bar> cw<CR>
 nnoremap <F6> :Tabularize /[+@]\w\+/<CR>
