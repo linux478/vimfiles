@@ -18,10 +18,6 @@ augroup autolisp
 augroup END
 
 inoremap <buffer> <tab> <ESC>
-inoremap <buffer> <localleader>d <C-R>=AutoLispFunction()<CR><C-O>?defun?e<CR><C-O>A
-inoremap <buffer> <localleader>fh <C-R>=AutoLispGetFunctionHeader()<CR>
-nnoremap <buffer> <localleader>r :call AutoLispFunctionReplaceDefun()<CR>
-nnoremap <buffer> <localleader>s :call AutoLispGetFunctionNameAndParameters()<CR>
 nnoremap <buffer> <F5> :upd<bar>call AutoLispReloadBuild()<CR>
 nnoremap <buffer> <F6> :vimgrep /^(defun/ % <bar> vert cw 50<CR>
 
