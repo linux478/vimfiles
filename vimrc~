@@ -1,4 +1,4 @@
-set rtp=C:\\Users\\Michael\\Documents\\GitHub/vimfiles,C:\\Program\ Files\ (x86)\\Vim/vimfiles,C:\\Program\ Files\ (x86)\\Vim\\vim82,C:\\Program\ Files\ (x86)\\Vim\\vim82\\pack\\dist\\opt\\matchit,C:\\Program\ Files\ (x86)\\Vim/vimfiles/after,C:\\Users\\Michael\\Documents\\GitHub/vimfiles/after
+set rtp=C:\Users\Michael\Documents\GitHub/vimfiles,C:\Program Files (x86)\Vim/vimfiles,C:\Program Files (x86)\Vim\vim82,C:\Program Files (x86)\Vim\vim82\pack\dist\opt\matchit,C:\Program Files (x86)\Vim/vimfiles/after,C:\Users\Michael\Documents\GitHub/vimfiles/after
 filetype plugin indent on
 
 syn on
