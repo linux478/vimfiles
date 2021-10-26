@@ -1,7 +1,6 @@
 filetype plugin indent on
 
 syn on
-colorscheme solarized
 
 set autoindent
 set backspace=indent,eol,start
