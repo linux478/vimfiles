@@ -77,8 +77,20 @@ fun! AsciidoctorMappings()
     compiler asciidoctor2pdf
 endfun
 
+fun! AsciiDocUpdateLastModified()
+  let pos = getpos(".")
+  if line("$") > 20
+    let l = 20
+  else
+    let l = line("$")
+  endif
+  echom "hello"
+  execute "1,".l."g/^:revdate:/s/:revdate:.*/:revdate: ". strftime('%Y-%m-%d')
+endfunction
+
 " Call AsciidoctorMappings for all `*.adoc` and `*.asciidoc` files
-augroup asciidoctor
+augroup asciidoc
     au!
     au BufEnter *.adoc,*.asciidoc call AsciidoctorMappings()
+    au BufWritePre, FileWritePre *.txt call AsciiDocUpdateLastModified()
 augroup END
